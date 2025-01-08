@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Shelter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Pet Adoption Shelter</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adopt.html">Adopt a Pet</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Pets Available for Adoption</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Picture</th>
+                    <th>Breed</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Pet 1 -->
+                <tr>
+                    <td>001</td>
+                    <td><img src="dog1.jpg" alt="Dog 1"></td>
+                    <td>Labrador</td>
+                    <td>Buddy</td>
+                    <td>2</td>
+                    <td>Male</td>
+                </tr>
+                <!-- Pet 2 -->
+                <tr>
+                    <td>002</td>
+                    <td><img src="cat1.jpg" alt="Cat 1"></td>
+                    <td>Persian</td>
+                    <td>Whiskers</td>
+                    <td>4</td>
+                    <td>Female</td>
+                </tr>
+                <!-- Pet 3 -->
+                <tr>
+                    <td>003</td>
+                    <td><img src="dog2.jpg" alt="Dog 2"></td>
+                    <td>Beagle</td>
+                    <td>Max</td>
+                    <td>3</td>
+                    <td>Male</td>
+                </tr>
+                <!-- Pet 4 -->
+                <tr>
+                    <td>004</td>
+                    <td><img src="cat2.jpg" alt="Cat 2"></td>
+                    <td>Maine Coon</td>
+                    <td>Fluffy</td>
+                    <td>1</td>
+                    <td>Female</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+</body>
+</html>
