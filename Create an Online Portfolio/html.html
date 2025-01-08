@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            font-size: 24px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Online Portfolio</h1>
+</header>
+
+<main>
+    <!-- Section 1: About Me -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is John Doe, and I am a web developer. I was born on January 1, 1990. I graduated with a Bachelor's degree in Computer Science from ABC University in 2012. I have worked on several projects including a personal blog website, an e-commerce platform, and a mobile app. Currently, I work as a Front-End Developer at XYZ Corp, where I build modern, responsive web applications. 
+        </p>
+        <p>Languages I speak: English, Spanish, French</p>
+        <p>In my free time, I enjoy hiking, playing chess, and contributing to open-source projects.</p>
+    </section>
+
+    <!-- Section 2: Previous Projects -->
+    <section>
+        <h2>Previous Projects</h2>
+        <p>Here are some of the projects I’ve worked on:</p>
+        
+        <ul>
+            <li>
+                <b>Personal Blog Website</b>
+                <button class="button" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">View Project</button>
+            </li>
+            <li>
+                <b>E-Commerce Platform</b>
+                <button class="button" onclick="window.location.href='project2_screenshot.jpg';">View Project</button>
+            </li>
+            <li>
+                <b>Mobile App - Task Manager</b>
+                <button class="button" onclick="window.location.href='project3_video.mp4';">View Project</button>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section 3: Languages -->
+    <section>
+        <h2>Languages I Speak</h2>
+        <ul>
+            <li>English</li>
+            <li>Spanish</li>
+            <li>French</li>
+        </ul>
+    </section>
+
+    <!-- Section 4: Courses Attended -->
+    <section>
+        <h2>Courses I Have Attended</h2>
+        <ol>
+            <li>Advanced JavaScript - 2023</li>
+            <li>React and Redux - 2022</li>
+            <li>Web Development Bootcamp - 2021</li>
+            <li>Introduction to Programming - 2019</li>
+        </ol>
+    </section>
+
+    <!-- Section 5: Contact Form -->
+    <section>
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="request">Request:</label>
+            <textarea id="request" name="request" rows="4" required></textarea>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
