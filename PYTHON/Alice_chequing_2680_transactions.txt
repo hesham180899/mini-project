@@ -1,0 +1,7 @@
+Account Created: 2025-01-02 20:32:12.789022
+Account ID: 2680
+Account Type: chequing
+Initial Balance: 500
+--------------------------------------------------
+2025-01-02 20:32:12.789133 - Deposited: $200
+2025-01-02 20:32:12.789188 - Withdrew: $100
